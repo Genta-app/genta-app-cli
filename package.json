@@ -1,0 +1,27 @@
+{
+  "name": "genta-app-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Genta.APP CLI",
+  "main": "bin/index.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "js-sha1": "^0.6.0",
+    "libsodium-wrappers-sumo": "^0.7.9",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Digital Five Pty Ltd",
+  "license": "MIT",
+  "bin": {
+    "genta": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

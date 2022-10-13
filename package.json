@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Digital Five Pty Ltd",
-  "license": "MIT",
+  "license": "GPLv3",
   "bin": {
     "genta": "./bin/index.js"
   },
